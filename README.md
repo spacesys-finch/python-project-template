@@ -56,12 +56,8 @@ This section will take you through the procedure to take your development enviro
     poetry install
     ```
 
-    Then install the project's pre-commit hooks using:
-    ```
-    pre-commit install --install-hooks
-    ```
-    
-    Pre-commit's cache will be stored at `~/.cache/pre-commit` (this folder can grow very large).
+1. Install recommended extensions for VSCode
+    Install the recomended extensions by opening the command pallet using `CMD + shift + P`. Type `Show Reccomended Extensions` and install the extensions listed.
 
 1. Configure IDE interpreter
 
@@ -74,9 +70,14 @@ This section will take you through the procedure to take your development enviro
     Set-ExecutionPolicy -ExecutionPolicy Bypass
     ```
 
-    Install the recomended extensions by opening the command pallet using `CMD + shift + P`.
+1. Install pre-commit hooks
 
-    Type `Show Reccomended Extensions` and install the extensions listed.
+    Install the project's pre-commit hooks using:
+    ```
+    pre-commit install --install-hooks
+    ```
+    
+    Pre-commit's cache will be stored at `~/.cache/pre-commit` (this folder can grow very large).
 
 
 You're now ready to start contributing!
