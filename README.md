@@ -1,4 +1,4 @@
-<img src="img/architect-logo.png" height="128">
+<img src="img/logo.png" height="128">
 
 # Python Project Template
 A project.
